@@ -1,0 +1,23 @@
+.vertical-center {
+  min-height: 80%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#cod_barra {
+  width: 400;
+  height: 50;
+  font-size: 32px;
+}
+
+.total,
+.total span {
+  font-size: 32px;
+}
+
+.total {
+  width: 400px;
+  text-align: center;
+}
